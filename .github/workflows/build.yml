@@ -22,6 +22,10 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
+      # ===== এই নতুন ধাপটি যোগ করা হয়েছে =====
+      - name: Create missing platform-specific files
+        run: flutter create .
+
       - name: Build APK
         run: flutter build apk --release
 
