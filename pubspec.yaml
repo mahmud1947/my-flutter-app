@@ -1,0 +1,25 @@
+name: my_simple_app
+description: "A very simple Flutter application."
+
+# অ্যাপের ভার্সন
+version: 1.0.0+1
+
+# Dart SDK-এর ভার্সন
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # এখানে অন্যান্য প্যাকেজ যোগ করতে পারেন, যেমন: cupertino_icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# এই অংশটি Flutter-এর জন্য জরুরি
+flutter:
+  uses-material-design: true
